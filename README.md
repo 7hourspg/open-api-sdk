@@ -24,31 +24,6 @@ A modern React application that automatically generates a fully-typed SDK from a
 - **Validation**: Zod
 
 
-# Generate SDK from swagger.json
-pnpm generate:sdk
-```
-
-
-## 📁 Project Structure
-
-```
-open-api-sdk/
-├── src/
-│   ├── client/              # Auto-generated SDK
-│   │   ├── sdk.gen.ts       # API functions
-│   │   ├── types.gen.ts     # TypeScript types
-│   │   └── @tanstack/       # React Query hooks
-│   ├── routes/              # File-based routes
-│   │   ├── index.tsx        # Home page
-│   │   └── $id.tsx          # Dynamic route
-│   ├── Home.tsx             # Users list page
-│   ├── single-user.tsx      # User detail page
-│   └── main.tsx             # App entry point
-├── scripts/
-│   └── index.ts             # SDK generation script
-├── swagger.json             # OpenAPI specification
-└── package.json
-```
 
 ## 🔧 SDK Generation
 
